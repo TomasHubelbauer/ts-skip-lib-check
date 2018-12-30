@@ -3,5 +3,8 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "noLib": true
-  }
+  },
+  "exclude": [
+    "test.d.ts"
+  ]
 }
