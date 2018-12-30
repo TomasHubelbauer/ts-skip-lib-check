@@ -1,0 +1,9 @@
+steps:
+- task: Npm@1
+  displayName: 'Install TypeScript'
+  inputs:
+    command: custom
+    verbose: false
+    customCommand: 'install typescript'
+- powershell: npx tsc -p src
+  displayName: 'Run type check'
