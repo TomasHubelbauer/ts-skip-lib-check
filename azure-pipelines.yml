@@ -5,5 +5,5 @@ steps:
     command: custom
     verbose: false
     customCommand: 'install typescript'
-- powershell: npx tsc --skipLibCheck -p .
+- powershell: npx tsc --skipLibCheck --skipDefaultLibCheck --noLib -p .
   displayName: 'Run type check'
