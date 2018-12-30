@@ -7,7 +7,6 @@ I have set up `skipLibCheck` in the `tsconfig.json` file as well as in the comma
 The TypeScript project is invoked in an Azure Pipeline defined by `azure-pipelines.yml`:
 
 [
-
   ![](https://dev.azure.com/tomashubelbauer/ts-skip-lib-check/_apis/build/status/ts-skip-lib-check-CI?branchName=master)
 ](https://dev.azure.com/tomashubelbauer/ts-skip-lib-check/_build/latest?definitionId=11?branchName=master)
 
