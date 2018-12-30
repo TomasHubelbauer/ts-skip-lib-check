@@ -12,6 +12,4 @@ The TypeScript project is invoked in an Azure Pipeline defined by `azure-pipelin
 
 Project option is used to let TypeScript know to pick up the `tsconfig.json` file.
 
-- [ ] Try `skipDefaultLibCheck` & `noLib` as well
-
 [TypeScript compiler options](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
