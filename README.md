@@ -1,4 +1,4 @@
-# TypeScript `skilLibCheck`
+# TypeScript `skipLibCheck`
 
 This repository began as a playground for me to find out why `skipLibCheck` doesn't ignore `*.d.ts` files in my
 project. During my research I found out that the poorly documented compiler option actually doesn't skip the
