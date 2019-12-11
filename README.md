@@ -20,12 +20,6 @@ Overflow answer:
 This means that the compiler option will not exclude `*.d.ts` file from the project, instead it is a performance
 boost which comes at an expense of the type checking soundness.
 
-The TypeScript project is invoked in an Azure Pipeline defined by `azure-pipelines.yml`:
-
-[
-  ![](https://dev.azure.com/tomashubelbauer/ts-skip-lib-check/_apis/build/status/ts-skip-lib-check-CI?branchName=master)
-](https://dev.azure.com/tomashubelbauer/ts-skip-lib-check/_build/latest?definitionId=11?branchName=master)
-
 [TypeScript compiler options](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
 
 I have originally started exploring this to see why TypeScript compiler goes to `node_modules` and check `.d.ts`
